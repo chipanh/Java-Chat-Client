@@ -1,0 +1,10 @@
+This project was for a first year university assignment.
+
+It depends upon the serial comms libraries being installed, which are OS dependent.
+The basic brief for the project was to implement a basic messaging protocol and
+handle login and logout of users to a chat client. Messages can be sent between
+users and a list of logged in users is recorded by each client.
+
+Each client must forward messages not intended for that client, and they must
+send ACK and NACK messages as appropriate. Messages not received are retransmitted.
+And when no ACK is received by a sender then after a timeout retransmission is attempted.
