@@ -1,0 +1,1 @@
+java -jar \dist\JavaProject1.jar "CNCA0"
